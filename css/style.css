@@ -1,0 +1,85 @@
+body
+{
+    margin: 0 auto;
+    background-color: rgb(20, 20, 20);
+    font-family: 'Inconsolata', 'Courier New', 'Noto Mono', 'Spleen';font-size: 150%;
+    color: white;
+    line-height: 1;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+    width:90%
+}
+
+nav
+{
+    margin-top: 10px;
+    border-top: dashed 1px rgba(255, 255, 255, 10);
+    border-bottom: dashed 1px rgba(255, 255, 255, 10);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    padding-right: 1vw;
+    display: inline-block;
+}
+
+a
+{
+    color: paleturquoise;   
+    text-decoration: none; 
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+main
+{
+    font-family: 'Inconsolata', 'Courier New', 'Noto Mono', 'Spleen';font-size: 80%;
+    border-bottom: dashed 1px rgba(255, 255, 255, 10);
+}
+
+main > p, main > img
+{
+    margin-top:2%;
+}
+
+main > img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+main > div > *
+{
+    margin: 0;
+}
+
+main > div
+{
+    margin-bottom:2%
+}
+
+main > div, main > div > p
+{
+    margin-left:1vw;
+    margin-right:1vw;
+}
+
+footer
+{
+    margin-top:1vh;
+    display: flex;
+    justify-content: space-evenly;
+}
